@@ -12,7 +12,7 @@ pc.script.createLoadingScreen(function (app) {
         splash.style.display = 'none';
 
         var logo = document.createElement('img');
-        logo.src = 'https://deiverhz.github.io/oficonta/logo.png';
+        logo.src = 'https://deiverhz.github.io/oficontactp/logo.png';
         splash.appendChild(logo);
         logo.onload = function () {
             splash.style.display = 'block';
